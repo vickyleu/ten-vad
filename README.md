@@ -612,7 +612,7 @@ Most questions can be answered by using DeepWiki, it is fast, intutive to use an
 
 ## License
 
-This project is Apache 2.0 with additional conditions licensed. Refer to the "LICENSE" file in the root directory for detailed information. Note that `pitch_est.cc` contains modified code derived from [LPCNet](https://github.com/xiph/LPCNet), which is [BSD-2-Clause](https://spdx.org/licenses/BSD-2-Clause.html) and [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) licensed, refer to the NOTICES file in the root directory for detailed information.
+This project is licensed under Apache 2.0 with certain conditions. Refer to the "LICENSE" file in the root directory for detailed information. Note that `pitch_est.cc` contains modified code derived from [LPCNet](https://github.com/xiph/LPCNet), which is [BSD-2-Clause](https://spdx.org/licenses/BSD-2-Clause.html) and [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) licensed, refer to the NOTICES file in the root directory for detailed information.
 
 <br>
 
