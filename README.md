@@ -557,7 +557,7 @@ cd ./examples
          <img src="./examples/images/ios_image_2.png" width="800">
        </div>
 
-     3.4. Configure iOS device Signature
+   3.4. Configure iOS device Signature
 
    - in TARGETS → ten_vad_demo → Signing & Capabilities → Signing
 
@@ -569,7 +569,7 @@ cd ./examples
 
      - Specify your Certification
 
-       3.5. Build in Xcode and run demo on your device.
+   3.5. Build in Xcode and run demo on your device.
 
 <br>
 
