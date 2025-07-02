@@ -5,6 +5,7 @@
 [![Issues closed](https://img.shields.io/github/issues-search?query=repo%3ATEN-framework%2Ften-vad%20is%3Aclosed&label=issues%20closed&labelColor=gray&color=green)](https://github.com/TEN-framework/ten-vad/issues)
 ![](https://img.shields.io/github/contributors/ten-framework/ten-vad?color=c4f042&labelColor=gray&style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome!-brightgreen.svg?style=flat-square)](https://github.com/TEN-framework/ten-vad/pulls)
+[![GitHub license](https://img.shields.io/badge/License-Apache_2.0_with_certain_conditions-blue.svg?labelColor=%20%23155EEF&color=%20%23528bff)](https://github.com/TEN-framework/ten-vad/blob/main/LICENSE)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TEN-framework/TEN-vad)
 
 [![GitHub watchers](https://img.shields.io/github/watchers/TEN-framework/ten-vad?style=social&label=Watch)](https://GitHub.com/TEN-framework/ten-vad/watchers/?WT.mc_id=academic-105485-koreyst)
@@ -535,41 +536,41 @@ cd ./examples
 ./build-and-deploy-ios.sh
 ```
 
-3. Follow the steps below to build and test on iOS device:
+3.  Follow the steps below to build and test on iOS device:
 
-   3.1. Use Xcode to open .xcodeproj files: a) cd ./build-ios, b) open ./ten_vad_demo.xcodeproj
+    3.1. Use Xcode to open .xcodeproj files: a) cd ./build-ios, b) open ./ten_vad_demo.xcodeproj
 
-   3.2. In Xcode IDE, select ten_vad_demo target (should check: Edit Scheme → Run → Release), then select your iOS Device (not simulator).
+    3.2. In Xcode IDE, select ten_vad_demo target (should check: Edit Scheme → Run → Release), then select your iOS Device (not simulator).
 
-   <div style="text-align:">
-     <img src="./examples/images/ios_image_1.jpg" width="800">
-   </div>
+    <div style="text-align:">
+      <img src="./examples/images/ios_image_1.jpg" width="800">
+    </div>
 
-   3.3. Drag ten_vad/lib/iOS/ten_vad.framework to "Frameworks, Libraries, and Embedded Content"
+    3.3. Drag ten_vad/lib/iOS/ten_vad.framework to "Frameworks, Libraries, and Embedded Content"
 
-   - (in TARGETS → ten_vad_demo → ten_vad_demo → General, should set Embed to "Embed & Sign").
+    - (in TARGETS → ten_vad_demo → ten_vad_demo → General, should set Embed to "Embed & Sign").
 
-   - or add it directly in this way: "Frameworks, Libraries, and Embedded Content" → "+" → Add Other... → Add Files →...
+    - or add it directly in this way: "Frameworks, Libraries, and Embedded Content" → "+" → Add Other... → Add Files →...
 
-   - Note: If this step is not completed, you may encounter the following runtime error: "dyld: Library not loaded: @rpath/ten_vad.framework/ten_vad".
+    - Note: If this step is not completed, you may encounter the following runtime error: "dyld: Library not loaded: @rpath/ten_vad.framework/ten_vad".
 
-       <div style="text-align:">
-         <img src="./examples/images/ios_image_2.png" width="800">
-       </div>
+          <div style="text-align:">
+            <img src="./examples/images/ios_image_2.png" width="800">
+          </div>
 
-   3.4. Configure iOS device Signature
+      3.4. Configure iOS device Signature
 
-   - in TARGETS → ten_vad_demo → Signing & Capabilities → Signing
+    - in TARGETS → ten_vad_demo → Signing & Capabilities → Signing
 
-     - Modify Bundle Identifier: modify "com.yourcompany" to yours;
+      - Modify Bundle Identifier: modify "com.yourcompany" to yours;
 
-     - Specify Provisioning Profile
+      - Specify Provisioning Profile
 
-   - In TARGETS → ten_vad_demo → Build Settings → Signing → Code Signing Identity:
+    - In TARGETS → ten_vad_demo → Build Settings → Signing → Code Signing Identity:
 
-     - Specify your Certification
+      - Specify your Certification
 
-   3.5. Build in Xcode and run demo on your device.
+        3.5. Build in Xcode and run demo on your device.
 
 <br>
 
