@@ -16,6 +16,7 @@
 
 ## Latest News 🔥
 
+- [2025/07] We support **Python inference** on **macOS** with usage of the prebuilt-lib!  
 - [2025/06] We **finally** released and **open-sourced** the **ONNX** model and the corresponding **preprocessing code**! Now you can deploy **TEN VAD** on **any platform** and **any hardware architecture**!
 - [2025/06] We are excited to announce the release of **WASM+JS** for Web WASM Support.
 
