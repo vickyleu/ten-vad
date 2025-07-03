@@ -285,7 +285,7 @@ The project supports five major platforms with dynamic library linking.
 
 ### **Python Usage**
 
-#### **1. Linux**
+#### **1. Linux / macOS**
 
 #### **Requirements**
 
@@ -309,7 +309,7 @@ For **running demo or plotting PR curves**, you have to install the dependencies
 
 `pip install -r ./examples/requirements.txt`
 
-Note that if you did not install **libc++1**, you have to run the code below to install it:
+Note that if you did not install **libc++1** (Linux), you have to run the code below to install it:
 
 ```
 sudo apt update
