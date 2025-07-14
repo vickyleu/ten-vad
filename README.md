@@ -16,8 +16,8 @@
 <br>
 
 ## Latest News 🔥
-
-- [2025/07] We support **Python inference** on **macOS** and **Windows** with usage of the prebuilt-lib!
+- [2025/07] [**Sherpa-ONNX**](https://github.com/k2-fsa/sherpa-onnx) from [**kaldi-k2**](https://github.com/k2-fsa) **integrated** TEN VAD thanks to [Fangjun Kuang](https://github.com/csukuangfj). Now you can use TEN VAD in sherpa-onnx to extract speech segments more precisely and enhance the ASR user experience!
+- [2025/07] We supported **Python inference** on **macOS** and **Windows** with usage of the prebuilt-lib!
 - [2025/06] We **finally** released and **open-sourced** the **ONNX** model and the corresponding **preprocessing code**! Now you can deploy **TEN VAD** on **any platform** and **any hardware architecture**!
 - [2025/06] We are excited to announce the release of **WASM+JS** for Web WASM Support.
 
