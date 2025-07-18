@@ -1,5 +1,7 @@
 ![TEN VAD banner][ten-vad-banner]
 
+[![TEN Releases]( https://img.shields.io/github/v/release/ten-framework/ten-vad?color=369eff&labelColor=gray&logo=github&style=flat-square )](https://github.com/TEN-framework/ten-framework/releases)
+[![Release Date](https://img.shields.io/github/release-date/ten-framework/ten-vad?labelColor=gray&style=flat-square)](https://github.com/TEN-framework/ten-framework/releases)
 [![Discussion posts](https://img.shields.io/github/discussions/TEN-framework/ten-vad?labelColor=gray&color=%20%23f79009)](https://github.com/TEN-framework/ten-vad/discussions/)
 [![Commits](https://img.shields.io/github/commit-activity/m/TEN-framework/ten-vad?labelColor=gray&color=pink)](https://github.com/TEN-framework/ten-vad/graphs/commit-activity)
 [![Issues closed](https://img.shields.io/github/issues-search?query=repo%3ATEN-framework%2Ften-vad%20is%3Aclosed&label=issues%20closed&labelColor=gray&color=green)](https://github.com/TEN-framework/ten-vad/issues)
@@ -8,6 +10,7 @@
 [![HuggingFace TEN VAD](https://img.shields.io/badge/Hugging%20Face-TEN%20VAD-yellow?style=flat&logo=huggingface)](https://huggingface.co/TEN-framework/ten-vad)
 [![GitHub license](https://img.shields.io/badge/License-Apache_2.0_with_certain_conditions-blue.svg?labelColor=%20%23155EEF&color=%20%23528bff)](https://github.com/TEN-framework/ten-vad/blob/main/LICENSE)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TEN-framework/TEN-vad)
+[![ReadmeX](https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg)](https://readmex.com/TEN-framework/ten-vad)
 
 [![GitHub watchers](https://img.shields.io/github/watchers/TEN-framework/ten-vad?style=social&label=Watch)](https://GitHub.com/TEN-framework/ten-vad/watchers/?WT.mc_id=academic-105485-koreyst)
 [![GitHub forks](https://img.shields.io/github/forks/TEN-framework/ten-vad?style=social&label=Fork)](https://GitHub.com/TEN-framework/ten-vad/network/?WT.mc_id=academic-105485-koreyst)
@@ -578,22 +581,25 @@ cd ./examples
 
 ## TEN Ecosystem
 
-| Project                                                                                                                                                          | Preview                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| [**🏚️ TEN Framework**][ten-framework-link]<br>TEN is an open-source framework for real-time, multimodal conversational AI.<br><br>![][ten-framework-shield]      | ![][ten-framework-banner]      |
-| [**️🔂 TEN Turn Detection**][ten-turn-detection-link]<br>TEN is for full-duplex dialogue communication.<br><br>![][ten-turn-detection-shield]                    | ![][ten-turn-detection-banner] |
-| [**🔉 TEN VAD**][ten-vad-link]<br>TEN VAD is a low-latency, lightweight and high-performance streaming voice activity detector (VAD).<br><br>![][ten-vad-shield] | ![][ten-vad-banner]            |
-| [**🎙️ TEN Agent**][ten-agent-link]<br>TEN Agent is a showcase of TEN Framewrok.<br><br>                                                                          | ![][ten-agent-banner]          |
-| [**🎨 TMAN Designer**][tman-designer-link]<br>TMAN Designer is low/no code option to make a voice agent with easy to use workflow UI.<br><br>                    | ![][tman-designer-banner]      |
-| [**📒 TEN Portal**][ten-portal-link]<br>The official site of TEN framework, it has documentation and blog.<br><br>![][ten-portal-shield]                         | ![][ten-portal-banner]         |
+| Project | Preview |
+|---------|---------|
+| [**🏚️ TEN Framework**][ten-framework-link]<br>TEN is an open-source framework for real-time, multimodal conversational AI.<br><br>![][ten-framework-shield] | ![][ten-framework-banner] |
+| [**️🔂 TEN Turn Detection**][ten-turn-detection-link]<br>TEN is for full-duplex dialogue communication.<br><br>![][ten-turn-detection-shield] | ![][ten-turn-detection-banner] |
+| [**🔉 TEN VAD**][ten-vad-link]<br>TEN VAD is a low-latency, lightweight and high-performance streaming voice activity detector (VAD).<br><br>![][ten-vad-shield] | ![][ten-vad-banner] |
+| [**🎙️ TEN Agent**][ten-agent-link]<br>TEN Agent is a showcase of TEN Framewrok.<br><br> | ![][ten-agent-banner] |
+| [**🎨 TMAN Designer**][tman-designer-link]<br>TMAN Designer is low/no code option to make a voice agent with easy to use workflow UI.<br><br> | ![][tman-designer-banner] |
+| [**📒 TEN Portal**][ten-portal-link]<br>The official site of TEN framework, it has documentation and blog.<br><br>![][ten-portal-shield] | ![][ten-portal-banner] |
 
 <br>
 
 ## Ask Questions
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TEN-framework/TEN-vad)
+TEN VAD is available on these AI-powered Q&A platforms. They can help you find answers quickly and accurately in multiple languages, covering everything from basic setup to advanced implementation details.
 
-Most questions can be answered by using DeepWiki, it is fast, intutive to use and supports multiple languages.
+| Service | Link |
+| ------- | ---- |
+| DeepWiki | [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TEN-framework/TEN-vad) |
+| ReadmeX | [![ReadmeX](https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg)](https://readmex.com/TEN-framework/ten-vad) |
 
 <br>
 
