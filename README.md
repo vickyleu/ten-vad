@@ -1,7 +1,7 @@
 ![TEN VAD banner][ten-vad-banner]
 
-[![TEN Releases]( https://img.shields.io/github/v/release/ten-framework/ten-vad?color=369eff&labelColor=gray&logo=github&style=flat-square )](https://github.com/TEN-framework/ten-framework/releases)
-[![Release Date](https://img.shields.io/github/release-date/ten-framework/ten-vad?labelColor=gray&style=flat-square)](https://github.com/TEN-framework/ten-framework/releases)
+[![TEN Releases]( https://img.shields.io/github/v/release/ten-framework/ten-vad?color=369eff&labelColor=gray&logo=github&style=flat-square )](https://github.com/TEN-framework/ten-vad/releases)
+[![Release Date](https://img.shields.io/github/release-date/ten-framework/ten-vad?labelColor=gray&style=flat-square)](https://github.com/TEN-framework/ten-vad/releases)
 [![Discussion posts](https://img.shields.io/github/discussions/TEN-framework/ten-vad?labelColor=gray&color=%20%23f79009)](https://github.com/TEN-framework/ten-vad/discussions/)
 [![Commits](https://img.shields.io/github/commit-activity/m/TEN-framework/ten-vad?labelColor=gray&color=pink)](https://github.com/TEN-framework/ten-vad/graphs/commit-activity)
 [![Issues closed](https://img.shields.io/github/issues-search?query=repo%3ATEN-framework%2Ften-vad%20is%3Aclosed&label=issues%20closed&labelColor=gray&color=green)](https://github.com/TEN-framework/ten-vad/issues)
