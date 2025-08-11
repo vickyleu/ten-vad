@@ -1,3 +1,5 @@
+<div align="center">
+
 ![TEN VAD banner][ten-vad-banner]
 
 [![TEN Releases]( https://img.shields.io/github/v/release/ten-framework/ten-vad?color=369eff&labelColor=gray&logo=github&style=flat-square )](https://github.com/TEN-framework/ten-vad/releases)
@@ -10,13 +12,15 @@
 [![HuggingFace TEN VAD](https://img.shields.io/badge/Hugging%20Face-TEN%20VAD-yellow?style=flat&logo=huggingface)](https://huggingface.co/TEN-framework/ten-vad)
 [![GitHub license](https://img.shields.io/badge/License-Apache_2.0_with_certain_conditions-blue.svg?labelColor=%20%23155EEF&color=%20%23528bff)](https://github.com/TEN-framework/ten-vad/blob/main/LICENSE)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TEN-framework/TEN-vad)
-[![ReadmeX](https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg)](https://readmex.com/TEN-framework/ten-vad)
+<!-- [![ReadmeX](https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg)](https://readmex.com/TEN-framework/ten-vad) -->
 
 <a href="https://trendshift.io/repositories/14548" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14548" alt="TEN-framework%2Ften-vad | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 [![GitHub watchers](https://img.shields.io/github/watchers/TEN-framework/ten-vad?style=social&label=Watch)](https://GitHub.com/TEN-framework/ten-vad/watchers/?WT.mc_id=academic-105485-koreyst)
 [![GitHub forks](https://img.shields.io/github/forks/TEN-framework/ten-vad?style=social&label=Fork)](https://GitHub.com/TEN-framework/ten-vad/network/?WT.mc_id=academic-105485-koreyst)
 [![GitHub stars](https://img.shields.io/github/stars/TEN-framework/ten-vad?style=social&label=Star)](https://GitHub.com/TEN-framework/ten-vad/stargazers/?WT.mc_id=academic-105485-koreyst)
+
+</div>
 
 <br>
 
