@@ -33,24 +33,25 @@
 <br>
 
 ## Table of Contents
-
 - [Welcome to TEN](#welcome-to-ten)
 - [TEN Hugging Face Space](#ten-hugging-face-space)
 - [Introduction](#introduction)
 - [Key Features](#key-features)
   - [High-Performance](#1-high-performance)
+    - [Performance Comparison](#11-performance-comparison)
   - [Agent-Friendly](#2-agent-friendly)
   - [Lightweight](#3-lightweight)
   - [Multiple Programming Languages and Platforms](#4-multiple-programming-languages-and-platforms)
-  - [Supported Sampling Rate and Hop Size](#5-supproted-sampling-rate-and-hop-size)
+  - [Supported Sampling Rate and Hop Size](#5-supported-sampling-rate-and-hop-size)
+- [Developers Testimonial](#developers-testimonial)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
   - [Python Usage](#python-usage)
-    - [Linux](#1-linux)
+    - [Linux](#1-linux--macos--windows)
   - [JS Usage](#js-usage)
     - [Web](#1-web)
   - [C Usage](#c-usage)
-    - [Linux](#1-linux-1)
+    - [Linux](#1-linux)
     - [Windows](#2-windows)
     - [macOS](#3-macos)
     - [Android](#4-android)
@@ -118,7 +119,12 @@ The precision-recall curves comparing the performance of WebRTC VAD (pitch-based
   <img src="./examples/images/PR_Curves_testset.png" width="800">
 </div>
 
-Note that the default threshold of 0.5 is used to generate binary speech indicators (0 for non-speech signal, 1 for speech signal). This threshold needs to be tuned according to your domain-specific task. The precision-recall curve can be obtained by executing the following script on Linux x64. The output figure will be saved in the same directory as the script.
+Note that the default threshold of 0.5 is used to generate binary speech indicators (0 for non-speech signal, 1 for speech signal). This threshold needs to be tuned according to your domain-specific task. 
+
+
+### **1.1 Performance Comparison**
+
+Developers can reproduce the performance comparison PR curves for **TEN VAD** and **Silero VAD** on the open-source testset (as shown in the figure above) by executing the following script on Linux x64 with a simply one line of code. The output figure will be saved in the same directory as the script.
 
 ```
 cd ./examples
@@ -213,16 +219,22 @@ We evaluated the RTF (Real-Time Factor) across five distinct platforms, each equ
 </table>
 <br>
 
-### **4. Multiple programming languages and platforms:**
+### **4. Multiple Programming Languages and Platforms:**
 
 TEN VAD provides cross-platform C compatibility across five operating systems (Linux x64, Windows, macOS, Android, iOS), with Python bindings optimized for Linux x64, with wasm for Web.
 <br>
 <br>
 
-### **5. Supproted sampling rate and hop size:**
+### **5. Supported Sampling Rate and Hop Size:**
 
 TEN VAD operates on 16kHz audio input with configurable hop sizes (optimized frame configurations: 160/256 samples=10/16ms). Other sampling rates must be resampled to 16kHz.
 <br>
+<br>
+
+## **Developers Testimonial**
+> *"We selected TEN VAD because it provides faster and more accurate sentence-end detection in Japanese compared to other VADs, while still being lightweight and fast enough for live use."* - LiveCap,Hakase shojo.
+
+> *"TEN VAD's overall performance is better than Silero VAD. Its high accuracy and low resource consumption helped us improve efficiency and significantly reduce costs."* - Rustpbx.
 <br>
 
 ## **Installation**
