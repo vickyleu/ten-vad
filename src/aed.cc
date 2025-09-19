@@ -656,6 +656,12 @@ int AUP_Aed_destroy(void** stPtr) {
   }
   stHdl->aivadInf = NULL;
 
+  // 释放模型路径内存
+  if (stHdl->model_path != NULL) {
+    free(stHdl->model_path);
+    stHdl->model_path = NULL;
+  }
+
   if (AUP_PE_destroy(&(stHdl->pitchEstStPtr)) < 0) {
     return -1;
   }
@@ -703,7 +709,15 @@ int AUP_Aed_memAllocate(void* stPtr, const Aed_StaticCfg* pCfg) {
 
   // 3th: create aivad instance
   if (stHdl->aivadInf == NULL) {
-    stHdl->aivadInf = new AUP_MODULE_AIVAD("onnx_model/ten-vad.onnx");
+    // 优先使用结构体中存储的路径，然后环境变量，最后默认路径
+    const char* model_path = stHdl->model_path;
+    if (model_path == NULL) {
+      model_path = getenv("TEN_VAD_MODEL_PATH");
+    }
+    if (model_path == NULL) {
+      model_path = "onnx_model/ten-vad.onnx";
+    }
+    stHdl->aivadInf = new AUP_MODULE_AIVAD(const_cast<char*>(model_path));
     if (stHdl->aivadInf == NULL) {
       return -1;
     }

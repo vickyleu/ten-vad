@@ -48,6 +48,22 @@ extern "C"
                                 float threshold);
 
   /**
+   * @brief Create and initialize a ten_vad instance with custom model path.
+   *
+   * @param[out] handle       Pointer to receive the vad handle.
+   * @param[in]  hop_size     The number of samples between the start points of
+   * two consecutive analysis frames. (e.g., 256).
+   * @param[in]  threshold    VAD detection threshold ranging from [0.0, 1.0]
+   * This threshold is used to determine voice activity by comparing with the output probability.
+   * When probability >= threshold, voice is detected.
+   * @param[in]  model_path   Path to the ONNX model file. If NULL, uses environment variable
+   * TEN_VAD_MODEL_PATH or default path "onnx_model/ten-vad.onnx".
+   * @return 0 on success, or -1 error occurs.
+   */
+  TENVAD_API int ten_vad_create_with_model(ten_vad_handle_t *handle, size_t hop_size,
+                                          float threshold, const char* model_path);
+
+  /**
    * @brief Process one audio frame for voice activity detection.
    * Must call ten_vad_init() before calling this, and ten_vad_destroy() when done.
    *

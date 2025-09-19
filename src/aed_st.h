@@ -101,6 +101,7 @@ typedef struct Aed_St_ {
 
   // SubModules
   AUP_MODULE_AIVAD* aivadInf;
+  char* model_path;  // ONNX model file path
 
   void* pitchEstStPtr;  // pitch-estimation module handler
   void* timeInAnalysis;
